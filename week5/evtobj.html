@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <input type = 'button' id = 'btnclk' value = '버튼'>
+            <script>
+                function msg(event){  <!--event 객체의 X Y를 사용하기 위해서 event를 적음-->
+                    alert(event.type);
+                    alert("x좌표 : "+event.clientX);
+                    alert("y좌표 : "+event.clientY);
+                }
+
+                btnclk.addEventListener('click',msg);
+            </script>
+        </input>
+    </body>
+</html>

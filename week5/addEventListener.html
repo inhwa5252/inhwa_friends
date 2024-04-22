@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <input type = 'button' id = 'btnclk' value = '김태욱'>
+        <script>
+            function first(){
+                alert('첫번째 메시지');
+                alert(this.value);
+            }
+            btnclk.addEventListener('click',first);
+            btnclk.addEventListener('click',function(){
+                alert('두번째 메시지');
+            });
+        </script>
+    </body>
+</html>
