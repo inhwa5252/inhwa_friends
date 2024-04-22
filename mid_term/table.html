@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                float : right;
+            }
+        </style>
+
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th>FRI</th>
+            </tr>
+            <tr>
+                <td>1교시</td>
+                <td>영어</td>
+                <td>국어</td>
+                <td>과학</td>
+                <td>미술</td>
+                <td>기술</td>
+            </tr>
+            <tr>
+                <td>2교시</td>
+                <td>도덕</td>
+                <td>체육</td>
+                <td>영어</td>
+                <td>수학</td>
+                <td>사회</td>
+            </tr>
+        </table>
+
+        <table border = "1">
+            <tr colspan = 2>지역별 홍차</tr>
+            <tr>
+                <th rowspan =3>중국</th>
+                <td>정산소종</td>
+            </tr>
+            <tr><td>기문</td></tr>
+            <tr><td>운남</td></tr>
+            <tr>
+                <th rowspan = 4>인도 및 스리랑카</th>
+                <td>아삼</td>
+            </tr>
+            <tr><td>실론</td></tr>
+            <tr><td>다질링</td></tr>
+            <tr><td>닐기리</td></tr>
+        </table>
+        <div>
+            <form method = "post">
+                <input type = "text" name = "search">
+                <input type = "submit">
+            </form>
+        </div>
+
+        <form>
+            <input type = "text" name = "text" value = "text"> <br>
+            <input type = "password" name ="password" vlaue = "password"> <br>
+            <input type = "file" name = "file" value = "file"> <br>
+            <input type = "checkbox" name = "checkbox" value = "checkbox"><br>
+            <input type = "radio" name = "radio" value = "radio"> <br>
+            <input type = "hidden" name = "hidden" value = "hidden"> <br>
+            <input type = "button" value ="button"><br>
+            <input type = "reset" vlaue = "reset"> <br>
+
+        </form>
+        <hr>
+        <form>
+            <table>
+                <tr>
+                    <td><label for = "username">이름</label></td>
+                    <td><input id = "username" type = "text"name = "username"></td>
+                </tr>
+                <tr>
+                    <td><label for ="gender">성별</label></td>
+                    <td>
+                        <input id ="man"type = "radio" name ="gender" value = "m">
+                        <label for = "man">남자</label>
+                        <input id ="woman" type = "radio" name = "gender" value = "w">
+                        <label for = "woman">여자</label>
+                    </td>
+                </tr>
+                
+            </table>
+            <input type = "submit" value = "가입">
+        </form>
+    </body>
+</html>
