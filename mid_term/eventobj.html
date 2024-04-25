@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <input type ='button' id="obj" value="버튼">
+        <script>
+            let obj2 ={
+                handleEvent(event){
+                    alert(event.type);
+                    alert("x좌표 : " + event.clientX);
+                    alert("y : " + event.clientY);
+                }
+            }
+            obj.addEventListener('click',obj2);
+        </script>
+    </body>
+</html>

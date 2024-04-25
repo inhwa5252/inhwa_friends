@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+        </style>
+    </head>
+    <body>
+        <input type = 'button' value = "one" id = "one">
+        <input type = "button" value = "two" id ="two">
+        <script>
+            function first(){
+                alert("첫번째 메세지");
+            }
+            one.addEventListener('click',first);
+            one.addEventListener('click',function(){
+                alert('글이 길어지면 이렇게 쓰는게 좋아요 그냥 이렇게 쓰는 연습을 하자 오킹콩'); 
+            });
+
+            two.onclick = function(){
+                alert('two');
+            }
+        </script>
+    </body>
+</html>
